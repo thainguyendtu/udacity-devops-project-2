@@ -98,7 +98,7 @@ Resources:
       SecurityGroupEgress:
       - IpProtocol: tcp
         FromPort: 0
-        ToPort: 65535
+        ToPort: 80 - 22
         CidrIp: 0.0.0.0/0
 
   WebAppInstanceRole:
